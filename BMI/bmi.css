@@ -1,0 +1,109 @@
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: grid;
+   
+  }
+  
+  .conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0528f3;
+    color: #fff;
+    border-radius: 5px;
+  } 
+  
+  h1 {
+    font-family: "Roboto";
+  }
+  
+  .gender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .man,
+  .woman {
+    margin: 1rem 2rem;
+    border: 1px solid #fff;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+  
+  .man {
+    color: #00bcd4;
+  }
+  
+  .woman {
+    color: #ff679b;
+  }
+  
+  .man:focus,
+  .woman:focus {
+    box-shadow: 0px 0px 17px 3px rgba(255, 255, 255, 0.75);
+  }
+  
+  form {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  input {
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    background-color:#141683;
+  }
+  
+  button {
+    background-color: #324596;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  button:hover {
+    background-color: #cd1349;
+    transition: 0.8s ease;
+  }
+  
+  #result {
+    font-size: 3rem;
+    font-family: "Roboto";
+    font-weight: 900;
+  }
+  
+  #meaning {
+    font-size: 2rem;
+    font-family: "Roboto";
+    font-weight: 900;
+    margin: -2rem;
+  }
+  @media (max-width:920px){
+    .conteiner{
+      width: 100%;
+  }
+}
+@media (max-width:670px){
+  .conteiner{
+    width: 100%;
+}
+}
+
+@media (max-width:370px){
+  .conteiner{
+    width: 100%;
+}
+}
